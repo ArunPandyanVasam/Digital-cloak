@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: first baseline;
+    background-image: url('./images/interstellar.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 45px;
+    color: aliceblue;
+}
+
+.cloak {
+    display: flex;
+}
+
+.cloak div {
+    margin: 5px;
+    position: relative;
+}
+
+.cloak span {
+    width: 100px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    font-size: 50px;
+    color: white;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cloak .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(18, 143, 143);
+    opacity: 0.8;
+}
+
+.cloak #ampm {
+    bottom: 0px;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 18px;
+    background-color: rgb(22, 138, 138);
+}
